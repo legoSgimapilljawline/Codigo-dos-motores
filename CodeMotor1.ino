@@ -3,7 +3,7 @@
 #define SL 8 //sensor para esquerda
 #define SF 9 //sensor para direita
 #define SR 10 //sensor para frente
-#define IN1 7 //saída 1
+#define IN1 7 //saída 2
 #define IN2 6 //saída 2
 #define IN3 5 //saída 3
 #define IN4 4 //saída 4- saídas ponte H
@@ -17,7 +17,7 @@ char ultimaDirecao = 'C';
 
 void ConfigMotores () {
 //Setamos os pinos de controle dos motores como saída.
-pinMode (IN1, OUTPUT);
+
 pinMode (IN2, OUTPUT);
 pinMode (IN3, OUTPUT);
 pinMode (IN4, OUTPUT);
